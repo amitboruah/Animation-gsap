@@ -1,0 +1,83 @@
+.intro {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  top: 0;
+}
+
+.intro .left {
+  flex: 0.5;
+  height: auto;
+  margin-top: 250px;
+  /* border: 2px solid red; */
+}
+
+.leftContainer {
+  width: 340px;
+  height: 200px;
+  font-weight: 800;
+  position: relative;
+  left: 25%;
+}
+.itype {
+  color: rgb(19, 15, 64);
+  font-size: 35px;
+}
+
+.yellowBtn {
+  background-color: orange;
+  width: 150px;
+  padding: 8px;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+
+.cardImg {
+  background-color: rgba(171, 213, 228, 0.5);
+  width: 200px;
+  height: 200px;
+}
+.introCard {
+  /* border: 1px solid black; */
+  height: 200px;
+  width: 450px;
+  background-color: #f8eedd;
+  position: relative;
+  top: 15%;
+  left: 55%;
+}
+
+.intro .rightc {
+  flex: 0.5;
+  background-color: #f8eedd;
+
+  /* border: 2px solid green; */
+}
+
+.introImg {
+  height: 500px;
+}
+
+.titleBar {
+  width: 280px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #d3d3d3;
+  text-align: center;
+  font-size: 15px;
+  position: relative;
+}
+
+.titleBar span {
+  background-color: orange;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 0;
+  padding-top: 5px;
+}

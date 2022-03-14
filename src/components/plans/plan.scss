@@ -1,0 +1,71 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+  
+    .container2 {
+      width: 45%;
+      text-align: center;
+  
+      .top {
+        h1 {
+          font-size: 35px;
+          color: #130f40;
+        }
+  
+        p {
+          font-size: 15px;
+        }
+      }
+  
+      .bottom {
+        .cards {
+          // border: 1px solid red;
+          display: flex;
+          justify-content: space-evenly;
+  
+          .plancard {
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 40%;
+            margin-top: 10px;
+  
+            height: 300px;
+  
+            .content {
+              background-color: rgb(200, 231, 241);
+              width: 80%;
+              height: 35%;
+              margin: 10px auto;
+  
+              h1 {
+                font-size: 25px;
+  
+                sub {
+                  font-size: 10px;
+                }
+              }
+              h2 {
+                font-size: 18px;
+              }
+              span {
+                font-size: 14px;
+              }
+            }
+            p {
+              font-size: 15px;
+              opacity: 0.5;
+            }
+            .try {
+              width: 60%;
+              height: 30px;
+              border-radius: 10px;
+              background-color: orange;
+              color: white;
+              margin: 10px auto;
+            }
+          }
+        }
+      }
+    }
+  }
+  

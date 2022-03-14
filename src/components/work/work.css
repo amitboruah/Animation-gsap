@@ -1,0 +1,60 @@
+
+
+.work{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.leftwork{
+    flex: 1;
+    /* border: 2px solid red; */
+}
+
+.worktitle{
+    width: 40%;
+    position: relative;
+    top: 10%;
+    left: 15%;
+}
+
+.worktitle h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.card{
+    height: 220px;
+    width: 280px;
+    border: none;
+    /* background-color: cyan; */
+   position: relative;
+   top: 40%;
+   left: 30%;
+    
+}
+
+.top img{
+    width: 60px;
+}
+
+.center {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.bottom{
+    font-size: 15px;
+}
+
+.rightwork{
+    flex: 1;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightImg{
+    width: 80%;
+}

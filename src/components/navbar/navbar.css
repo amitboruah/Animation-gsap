@@ -1,0 +1,26 @@
+.navb{
+    background-color: transparent !important;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    position: absolute;
+    width: 100vw;
+
+}
+
+.title h1{
+    font-size: 35px;
+    color: orange;
+    font-weight: 800;
+}
+.title h1 span{
+    color: rgb(19, 15, 64);
+}
+
+.links{
+    color: black !important;
+    font-size: 15px; 
+    font-weight: 600;
+}
+
