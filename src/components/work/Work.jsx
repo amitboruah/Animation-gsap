@@ -18,23 +18,23 @@ export default function Work() {
         stagger:0.2,
         delay:2
         ,scrollTrigger: {
-          trigger:"cards",
-          top:"top 80%"
+          trigger:".cards",
+          start:"top 80%"
       }
       });
     
     gsap.from(
       workT.current,
       { duration: 4, opacity: 0 ,scrollTrigger: {
-        trigger:"cards",
-        top:"top 80%"
+        trigger:".cards",
+        start:"top 80%"
     }},
       { duration: 4, delay: 2, opacity:0.5},
       {duration:4, opacity:1}
     );
     gsap.from(rightImg.current, {duration:2,delay:2,x: 800,scrollTrigger: {
-      trigger:"cards",
-      top:"top 80%"
+      trigger:".cards",
+      start:"top 80%"
   }
   })
   }, []);

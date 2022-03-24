@@ -13,9 +13,9 @@ export default function Plan() {
   const bt2 =useRef(null)
 
   useEffect(()=>{
-    gsap.from('.top',{duration:5, opacity:0, scrollTrigger: {
-      trigger:"cards",
-      start:"top 30%"
+    gsap.from('.top',{duration:3, opacity:0, scrollTrigger: {
+      trigger:".cards",
+      start:"bottom top"
   }},{duration:2,opacity:1});
 
     gsap.from(card1.current,{x:-800 , scrollTrigger: {
